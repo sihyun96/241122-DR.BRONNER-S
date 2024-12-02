@@ -5,18 +5,9 @@
 @import url(../assets/styles/pretendard-subset.css);
 
 /*
-.poltawski-nowy-<uniquifier> {
   font-family: "Poltawski Nowy", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
-.prata-regular {
   font-family: "Prata", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 */
 @import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Prata&display=swap');
 
@@ -29,14 +20,13 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 
-
 /************* css 변수 */
 :root {
-  --font-main-ko: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --font-main-ko: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,Helvetica, sans-serif;
 
-  --font-main-en: "Prata", serif;
-  --font-sub-en: "Poltawski Nowy", serif;
-  --font-title-en: "Poller One", serif;
+  --font-main-en: "Prata",'Times New Roman', Times, serif;
+  --font-sub-en: "Poltawski Nowy",'Times New Roman', Times, serif;
+  --font-title-en: "Poller One",'Times New Roman', Times, serif;
 
   --font-xxxl: 4.0625rem;
   /*65px*/
@@ -185,18 +175,6 @@ body {
   text-transform: capitalize;
   transition: 0.3s;
   padding: 6px;
-}
-
-.fade-wrap {
-  transition: 1s;
-  opacity: 0;
-  position: relative;
-  top: -200px;
-}
-
-.fade-in {
-  opacity: 1;
-  top: 0;
 }
 
 @media (min-width: 990px) {

@@ -275,7 +275,7 @@ font-size: 30px; font-weight: 800;
   margin-top: var(--spacing-xs);
   font-family: var(--font-sub-en);
   font-weight: 800;
-  font-size: var(--font-ss);
+  font-size: var(--font-sub-en);
 }
 .story .story-title {
   justify-content: center;
@@ -381,6 +381,14 @@ font-size: 30px; font-weight: 800;
   font-style: italic;
   text-transform: uppercase;
   margin: var(--section-md) 0 var(--section-lg); 
+  overflow: hidden;
+}
+.youtube .txt-slide .text {
+  white-space: nowrap;
+  
+}
+.youtube .txt-slide .text span {
+  margin-right: 60px;
 }
 .youtube iframe {
   aspect-ratio: 16 / 9;
